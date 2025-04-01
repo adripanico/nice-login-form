@@ -1,34 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import { Cat } from './Cat/Cat';
-
-// export interface IMousePosition {
-//   x: number;
-//   y: number;
-// }
 
 function App() {
   const [email, setEmail] = useState('');
   const [emailHasFocus, setEmailHasFocus] = useState(false);
   const [pwd, setPwd] = useState('');
   const [pwdHasFocus, setPwdHasFocus] = useState(false);
-
-  // const [mousePos, setMousePos] = useState<IMousePosition>();
-  // useEffect(() => {
-  //   const controller = new AbortController();
-  //   document.addEventListener(
-  //     'mousemove',
-  //     (evt) => {
-  //       console.log({ x: evt.pageX, y: evt.pageY });
-  //       setMousePos({ x: evt.pageX, y: evt.pageY });
-  //     },
-  //     {
-  //       signal: controller.signal,
-  //     }
-  //   );
-
-  //   return () => controller.abort();
-  // }, []);
 
   return (
     <>
