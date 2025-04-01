@@ -71,7 +71,7 @@ function App() {
           Tunnel Bear Login Animation by Addy Osmani
         </a>{' '}
         which is based in{' '}
-        <a href="Tunnel Bear Login Animation">
+        <a href="https://www.tunnelbear.com/account/login">
           the Tunnel Bear by Kadri Jibraan
         </a>
         .
